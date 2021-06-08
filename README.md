@@ -1,18 +1,20 @@
-# aaieek
-One Team Membrain
+# yes
 
+## Build Setup
 
-Requirements
+```bash
+# install dependencies
+$ npm install
 
-    Node.js
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-Installation Steps
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-    Clone repo
-    Change into client folder
-    Run npm install
-    Run npm run dev
-    In a second terminal, change into the server folder
-    Run npm install
-    Run node index.js
-    Visit http://localhost:3000/
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

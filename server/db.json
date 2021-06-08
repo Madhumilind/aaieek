@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "email": "abc@gmail.com",
+      "password": "$2a$10$aL33poDBRkaNt1x.udPRTuu35Qp56U9jM9rbhLuUY156gJNOGgCRy",
+      "id": "e5726e88-5ad5-42a6-973e-0b32f2d6652e",
+      "username": "abc",
+      "timestamp": 1597514555903
+    },
+    {
+      "email": "new@gmail.com",
+      "password": "$2a$10$x4G5agMIZQiNolKHm1VtZOUK85OJMob8H7mcsDBbdJh29O/SHadeK",
+      "id": "7ec5c85b-47bf-4a4e-bc0d-fb8a051e2b60",
+      "username": "new",
+      "timestamp": 1597581507182
+    },
+    {
+      "email": "man@gmail.com",
+      "password": "$2a$10$F1FBuTTtPyMwjscXOaHY5OWMDDN6v2faDpnlDv4o3PLD8lV4uxQJO",
+      "id": "84db2a71-c107-4413-a054-14499dd98836",
+      "username": "man",
+      "timestamp": 1597601278667
+    },
+    {
+      "email": "First@gmail.com",
+      "password": "$2a$10$P7y8qK4mIFP.XNB3rLy3juB0UCdeWhTXXmzBxbBxMHJIut9vF3G7m",
+      "id": "218d3bcc-b1b1-4897-b0a1-8df43614b5ed",
+      "username": "First",
+      "timestamp": 1623076174624
+    }
+  ],
+  "posts": [
+    {
+      "id": "ad5a187f-3a8c-49f6-af29-657d2735624b",
+      "userId": "e5726e88-5ad5-42a6-973e-0b32f2d6652e",
+      "author": "abc",
+      "title": "Search",
+      "url": "https://www.google.com",
+      "votes": [
+        "7ec5c85b-47bf-4a4e-bc0d-fb8a051e2b60",
+        "84db2a71-c107-4413-a054-14499dd98836",
+        "218d3bcc-b1b1-4897-b0a1-8df43614b5ed"
+      ],
+      "timestamp": 1597578745604
+    },
+    {
+      "id": "194eef85-34c2-4afb-95ef-b5591ef7c46d",
+      "userId": "7ec5c85b-47bf-4a4e-bc0d-fb8a051e2b60",
+      "author": "new",
+      "title": "Yahoo",
+      "url": "https://www.yahoo.co.in",
+      "votes": [
+        "e5726e88-5ad5-42a6-973e-0b32f2d6652e",
+        "84db2a71-c107-4413-a054-14499dd98836",
+        "218d3bcc-b1b1-4897-b0a1-8df43614b5ed"
+      ],
+      "timestamp": 1597581590542
+    },
+    {
+      "id": "973eb615-ca88-489a-bb83-e4454e08cf88",
+      "userId": "84db2a71-c107-4413-a054-14499dd98836",
+      "author": "man",
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com/",
+      "votes": [
+        "218d3bcc-b1b1-4897-b0a1-8df43614b5ed"
+      ],
+      "timestamp": 1597601564731
+    },
+    {
+      "id": "35619af9-6ee3-47eb-85bc-881543299c39",
+      "userId": "218d3bcc-b1b1-4897-b0a1-8df43614b5ed",
+      "author": "First",
+      "title": "GitPod",
+      "url": "https://www.gitpod.io/",
+      "votes": [],
+      "timestamp": 1623078571753
+    }
+  ],
+  "comments": [
+    {
+      "id": "45633072-b958-49ba-84f6-eef3b6544a99",
+      "postId": "194eef85-34c2-4afb-95ef-b5591ef7c46d",
+      "userId": "7ec5c85b-47bf-4a4e-bc0d-fb8a051e2b60",
+      "author": "new",
+      "body": "Yahooooooo",
+      "timestamp": 1597601083964
+    },
+    {
+      "id": "0844cbcb-976d-460f-8f79-d981f51e8283",
+      "postId": "ad5a187f-3a8c-49f6-af29-657d2735624b",
+      "userId": "84db2a71-c107-4413-a054-14499dd98836",
+      "author": "man",
+      "body": "Most Used Search Engine",
+      "timestamp": 1597601498218
+    },
+    {
+      "id": "a58159a2-bdbe-4df1-a9b2-cb7446b8e748",
+      "postId": "ad5a187f-3a8c-49f6-af29-657d2735624b",
+      "userId": "218d3bcc-b1b1-4897-b0a1-8df43614b5ed",
+      "author": "First",
+      "body": "About to change the most",
+      "timestamp": 1623076403312
+    },
+    {
+      "id": "eec3024d-6230-4e3b-84e7-b60f2f3fd392",
+      "postId": "194eef85-34c2-4afb-95ef-b5591ef7c46d",
+      "userId": "218d3bcc-b1b1-4897-b0a1-8df43614b5ed",
+      "author": "First",
+      "body": "Yahoo first",
+      "timestamp": 1623078544377
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
